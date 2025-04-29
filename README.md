@@ -122,7 +122,7 @@ listen web_tcp
   
 #### Конфигурационный файл HAproxy [файл haproxy](configs/задание2-haproxy.cfg)
 
-  ![2]![3](https://github.com/Banshiks/Filatov2/blob/main/images/3.png)
+   ![моя картинка](images/3.png)
 
 
 ```
@@ -187,6 +187,6 @@ backend web_servers    # секция бэкенд
       	server s3 127.0.0.1:7777 weight 4 check
 ```
 
-  ![4](https://github.com/Banshiks/Filatov2/blob/main/images/4.png)
+ ![моя картинка](images/4.png)
 
 
