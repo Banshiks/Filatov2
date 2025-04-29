@@ -40,7 +40,8 @@
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 #### Конфигурационный файл HAproxy
-  ![image](https://github.com/SergeySS72/hometasks/assets/134854727/618d3d06-5dff-4b45-ad70-e6c6dea9b302)
+  ![image]![1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
+
 ```
 global
 	log /dev/log	local0
@@ -119,7 +120,8 @@ listen web_tcp
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
   
 #### Конфигурационный файл HAproxy
-  ![image](https://github.com/SergeySS72/hometasks/assets/134854727/ad7c3d31-79ac-464e-af4a-b14184907e9f)
+  ![image]![2](https://github.com/user-attachments/assets/0d0b0db0-79cf-4adf-a3e2-cca1d48bfe1a)
+
 ```
 global
 	log /dev/log	local0
