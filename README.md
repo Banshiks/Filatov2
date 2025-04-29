@@ -120,7 +120,8 @@ listen web_tcp
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
   
-#### Конфигурационный файл HAproxy [файл haproxy](configs/задание2-haproxy .cfg)
+#### Конфигурационный файл HAproxy [файл haproxy] (configs/задание2-haproxy .cfg)
+
   ![2]![3](https://github.com/Banshiks/Filatov2/blob/main/images/3.png)
 
 
