@@ -41,8 +41,7 @@
 
 #### Конфигурационный файл HAproxy
 
-  ![1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
-
+  ![1]https://github.com/Banshiks/Filatov2/blob/main/images/1.png
 ```
 global
 	log /dev/log	local0
@@ -111,7 +110,7 @@ listen web_tcp
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
 ```
-  ![0](https://github.com/SergeySS72/hometasks/assets/134854727/40137257-b042-4de5-85b7-4c790391ca0d)
+  ![0]https://github.com/Banshiks/Filatov2/blob/main/images/2.png
 
 
 ### Задание 2
