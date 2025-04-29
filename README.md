@@ -110,7 +110,7 @@ listen web_tcp
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
 ```
-  !(https://github.com/SergeySS72/hometasks/assets/134854727/40137257-b042-4de5-85b7-4c790391ca0d)
+  ![0](https://github.com/SergeySS72/hometasks/assets/134854727/40137257-b042-4de5-85b7-4c790391ca0d)
 
 
 ### Задание 2
