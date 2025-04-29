@@ -40,7 +40,7 @@
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 #### Конфигурационный файл HAproxy
-  [1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
+  ![1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
 
 ```
 global
