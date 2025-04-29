@@ -120,7 +120,7 @@ listen web_tcp
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
   
 #### Конфигурационный файл HAproxy
-  ![2]![3](https://github.com/user-attachments/assets/6d6c745a-e57d-4677-a19b-518b135c23dc)
+  ![2]![3](https://github.com/Banshiks/Filatov2/blob/main/images/3.png)
 
 
 ```
@@ -185,6 +185,6 @@ backend web_servers    # секция бэкенд
       	server s3 127.0.0.1:7777 weight 4 check
 ```
 
-  ![4](https://github.com/user-attachments/assets/66320b72-fd37-40da-95db-72156db64a38)
+  ![4](https://github.com/Banshiks/Filatov2/blob/main/images/4.png)
 
 
