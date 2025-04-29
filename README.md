@@ -40,7 +40,7 @@
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 #### Конфигурационный файл HAproxy
-  ![image]![1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
+  [1](https://github.com/user-attachments/assets/e48a5a60-d3a1-4adc-b887-e62fa29a3943)
 
 ```
 global
@@ -110,7 +110,7 @@ listen web_tcp
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
 ```
-  ![image](https://github.com/SergeySS72/hometasks/assets/134854727/40137257-b042-4de5-85b7-4c790391ca0d)
+  (https://github.com/SergeySS72/hometasks/assets/134854727/40137257-b042-4de5-85b7-4c790391ca0d)
 
 
 ### Задание 2
@@ -120,7 +120,7 @@ listen web_tcp
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
   
 #### Конфигурационный файл HAproxy
-  ![image]![2]![3](https://github.com/user-attachments/assets/6d6c745a-e57d-4677-a19b-518b135c23dc)
+  ![2]![3](https://github.com/user-attachments/assets/6d6c745a-e57d-4677-a19b-518b135c23dc)
 
 
 ```
@@ -185,6 +185,6 @@ backend web_servers    # секция бэкенд
       	server s3 127.0.0.1:7777 weight 4 check
 ```
 
-  ![image]![4](https://github.com/user-attachments/assets/66320b72-fd37-40da-95db-72156db64a38)
+  ![4](https://github.com/user-attachments/assets/66320b72-fd37-40da-95db-72156db64a38)
 
 
